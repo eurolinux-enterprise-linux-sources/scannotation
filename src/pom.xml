@@ -1,0 +1,15 @@
+<project>
+    <name>Scannotation</name>
+    <url>http://www.attainware.com/</url>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.resteasy</groupId>
+    <version>1.0</version>
+    <artifactId>scannotation-all</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>titan-test-jar</module>
+        <module>scannotation</module>
+    </modules>
+</project>

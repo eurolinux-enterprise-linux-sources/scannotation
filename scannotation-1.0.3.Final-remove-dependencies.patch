@@ -1,0 +1,27 @@
+diff -up scannotation-1.0.3.Final/pom.xml.fix scannotation-1.0.3.Final/pom.xml
+--- scannotation-1.0.3.Final/pom.xml.fix	2011-12-09 02:37:45.235999604 -0500
++++ scannotation-1.0.3.Final/pom.xml	2011-12-09 02:39:27.035000678 -0500
+@@ -9,7 +9,6 @@
+     <packaging>pom</packaging>
+ 
+     <modules>
+-        <module>titan-test-jar</module>
+         <module>scannotation</module>
+     </modules>
+ </project>
+diff -up scannotation-1.0.3.Final/scannotation/pom.xml.fix scannotation-1.0.3.Final/scannotation/pom.xml
+--- scannotation-1.0.3.Final/scannotation/pom.xml.fix	2011-12-09 02:41:31.427996852 -0500
++++ scannotation-1.0.3.Final/scannotation/pom.xml	2011-12-09 02:40:37.588999468 -0500
+@@ -30,12 +30,6 @@
+             <scope>test</scope>
+         </dependency>
+         <dependency>
+-            <groupId>org.resteasy</groupId>
+-            <artifactId>titan-cruise</artifactId>
+-            <version>1.0</version>
+-            <scope>test</scope>
+-        </dependency>
+-        <dependency>
+             <groupId>javassist</groupId>
+             <artifactId>javassist</artifactId>
+             <version>3.12.1.GA</version>
