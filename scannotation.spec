@@ -4,7 +4,7 @@
 
 Name: scannotation
 Version: 1.0.3
-Release:  0.6.%{alphatag}%{?dist}
+Release:  0.7.%{alphatag}%{?dist}
 Summary: A Java annotation scanner
 Group: Development/Libraries
 License: ASL 2.0
@@ -94,6 +94,9 @@ cp -rp target/site/apidocs/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.3-0.7.r12
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.3-0.6.r12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
